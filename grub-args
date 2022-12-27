@@ -1,0 +1,7 @@
+# GRUB boot loader configuration
+
+GRUB_DEFAULT=0
+GRUB_TIMEOUT=5
+GRUB_DISTRIBUTOR="Arch"
+GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 nvidia.NVreg_PreserveVideoMemoryAllocations=1 nvidia_drm.modeset=1 amd_iommu=on iommu=pt kvm_amd.npt=1 kvm_amd.nested=1 kvm.ignore_msrs=1 kvm.report_ignored_msrs=0 vfio-pci.ids=1002:67df,1002:aaf0 pci=noats"
+GRUB_CMDLINE_LINUX=""
